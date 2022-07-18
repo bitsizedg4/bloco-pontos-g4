@@ -1,0 +1,9 @@
+{
+  "point": {
+    "component": "Point"
+  },
+  "point.user": {
+    "component": "PointUser"
+}
+
+}
