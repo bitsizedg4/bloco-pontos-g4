@@ -8,8 +8,8 @@ const Point: FC = () => {
   const productContextValue = useProduct()
   const handles = useCssHandles(CSS_HANDLES) 
   return (
-    <div className= {`${handles.pointCount} c-action-secondary bg-success db tc br3`} >
-      <h4 className='pa2'>Compre e ganhe {productContextValue?.product?.priceRange.sellingPrice.highPrice.toFixed()} pontos</h4>
+    <div className= {`${handles.pointCount} c-action-secondary bg-success br2 mv3`} >
+      <h4 className='tc mv4'>Compre e ganhe {productContextValue?.product?.priceRange.sellingPrice.highPrice.toFixed()} pontos</h4>
     </div>
     
   )
